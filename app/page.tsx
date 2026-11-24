@@ -44,7 +44,7 @@ export default function Home() {
 
       <main>
         {/* ───────── Hero ───────── */}
-        <section id="top" className="relative flex min-h-svh items-center justify-center overflow-hidden text-center">
+        <section id="top" className="relative flex min-h-svh items-center justify-center overflow-hidden text-left sm:text-center">
           <div className="parallax absolute inset-0">
             <div className="kenburns absolute inset-0">
               <Image
@@ -60,21 +60,18 @@ export default function Home() {
           <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/40 to-[#0e0e0e]" />
 
           <div className="relative w-full px-6">
-            <p className="rise font-display text-xs tracking-[0.4em] text-white/80" style={{ "--d": "200ms" } as React.CSSProperties}>
-              <span className="border-b border-white/40 pb-1">Kami Barbiere · Gallarate</span>
-            </p>
             <h1
-              className="rise font-display mt-8 text-5xl font-light leading-tight sm:text-7xl"
+              className="rise font-display text-5xl font-light leading-tight sm:text-7xl"
               style={{ "--d": "380ms" } as React.CSSProperties}
             >
               Barberia classica,<br />
               <span className="text-gold">fatta come si deve</span>
             </h1>
-            <p className="rise mx-auto mt-6 max-w-md text-white/70" style={{ "--d": "560ms" } as React.CSSProperties}>
+            <p className="rise mt-6 max-w-md text-sm text-white/70 sm:mx-auto sm:text-base" style={{ "--d": "560ms" } as React.CSSProperties}>
               Tagli di precisione, cura della barba e rasature con asciugamano caldo in una bottega dove nessuno
               ti mette fretta, a Gallarate.
             </p>
-            <div className="rise mx-auto mt-10 flex w-full max-w-sm flex-col gap-4 sm:max-w-none sm:flex-row sm:justify-center" style={{ "--d": "740ms" } as React.CSSProperties}>
+            <div className="rise mt-10 flex w-full max-w-sm flex-col gap-4 sm:mx-auto sm:max-w-none sm:flex-row sm:justify-center" style={{ "--d": "740ms" } as React.CSSProperties}>
               <Link href="/book" className="btn-gold bg-gold px-8 py-3.5 text-center text-xs font-medium uppercase tracking-[0.2em] text-black sm:w-auto">
                 Prenota un appuntamento
               </Link>

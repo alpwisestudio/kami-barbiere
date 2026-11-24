@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="it" className={`${display.variable} ${sans.variable}`}>
+    <html lang="it" data-scroll-behavior="smooth"className={`${display.variable} ${sans.variable}`}>
       <body className="min-h-screen bg-[#0e0e0e] text-white antialiased">{children}</body>
     </html>
   );
