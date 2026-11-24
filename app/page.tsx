@@ -53,11 +53,11 @@ export default function Home() {
                 fill
                 priority
                 sizes="100vw"
-                className="object-cover grayscale"
+                className="object-cover brightness-[0.65] grayscale"
               />
             </div>
           </div>
-          <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/40 to-[#0e0e0e]" />
+          <div className="absolute inset-0 bg-linear-to-b from-black/85 via-black/70 to-[#0e0e0e]" />
 
           <div className="relative w-full px-6">
             <h1
