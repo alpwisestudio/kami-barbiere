@@ -49,7 +49,7 @@ export default function Home() {
             <div className="kenburns absolute inset-0">
               <Image
                 src="/img/hero.jpg"
-                alt="Barbiere che rifinisce la barba di un cliente con le forbici"
+                alt="Interno di una barberia in bianco e nero con due poltrone e specchi"
                 fill
                 priority
                 sizes="100vw"
@@ -175,7 +175,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-6xl items-center gap-14 px-6 md:grid-cols-2">
             <Reveal variant="image">
               <div className="group relative aspect-4/3 overflow-hidden bg-neutral-900">
-                <Image src="/img/interior.jpg" alt="Interno della barberia: tre poltrone in pelle sotto lampade in ottone" fill sizes="(min-width: 768px) 50vw, 100vw" className="photo object-cover" />
+                <Image src="/img/interior.jpg" alt="Barberia d'epoca in bianco e nero con poltrone, lavabi e specchi" fill sizes="(min-width: 768px) 50vw, 100vw" className="photo object-cover" />
               </div>
             </Reveal>
             <div>
